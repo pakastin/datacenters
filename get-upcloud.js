@@ -68,5 +68,5 @@ const { writeFile } = require('fs/promises');
     datacenter.lng = Number(lng);
   }
 
-  await writeFile('data/upcloud.json', JSON.stringify(datacenters, false, 2), 'utf8');
+  await writeFile('data/upcloud.js', `export const upcloud = ${JSON.stringify(datacenters, false, 2)}`, 'utf8');
 })();

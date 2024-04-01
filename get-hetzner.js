@@ -40,5 +40,5 @@ const { writeFile } = require('fs/promises');
     datacenter.lng = Number(lng);
   }
 
-  await writeFile('data/hetzner.json', JSON.stringify(datacenters, false, 2), 'utf8');
+  await writeFile('data/hetzner.js', `export const hetzner = ${JSON.stringify(datacenters, false, 2)}`, 'utf8');
 })();

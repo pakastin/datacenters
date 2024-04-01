@@ -1,4 +1,4 @@
-{
+export const upcloud = {
   "SYD": {
     "city": "Sydney",
     "country": "Australia",

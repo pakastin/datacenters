@@ -1,7 +1,3 @@
-const cloudflare = require('./data/cf.json');
-const hetzner = require('./data/hetzner.json');
-const upcloud = require('./data/upcloud.json');
-
-exports.cloudflare = cloudflare;
-exports.hetzner = hetzner;
-exports.upcloud = upcloud;
+export { cloudflare } from './data/cloudflare.js';
+export { hetzner } from './data/hetzner.js';
+export { upcloud } from './data/upcloud.js';

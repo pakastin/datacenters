@@ -1,4 +1,4 @@
-{
+export const cloudflare = {
   "ACC": {
     "city": "Accra",
     "country": "Ghana",
@@ -776,8 +776,8 @@
   "IST": {
     "city": "Istanbul",
     "country": "Turkey",
-    "lat": 41.006381,
-    "lng": 28.9758715
+    "lat": 41.0766019,
+    "lng": 29.052495
   },
   "ADB": {
     "city": "Izmir",

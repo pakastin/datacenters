@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Juha Lindstedt",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "puppeteer": "^22.6.1"
   },

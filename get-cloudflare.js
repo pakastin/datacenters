@@ -44,5 +44,5 @@ const { writeFile } = require('fs/promises');
 
   await browser.close();
 
-  await writeFile('data/cf.json', JSON.stringify(results, false, 2), 'utf8');
+  await writeFile('data/cloudflare.js', `export const cloudflare = ${JSON.stringify(results, false, 2)}`, 'utf8');
 })();
