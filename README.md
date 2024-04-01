@@ -1,7 +1,7 @@
 # Data center locations
 
 ## Demo
-https://datacenter-test.pakastin.fi/
+https://datacenter-test.pakastin.fi/ (https://github.com/pakastin/datacenter-test)
 
 ## Install
 ```bash
