@@ -8,7 +8,7 @@ npm i @pakastin/datacenters
 import { cloudflare, hetzner, upcloud } from '@pakastin/datacenters';
 
 console.log(cloudflare['HEL']);
-–> 
+
 {
   "city": "Helsinki",
   "country": "Finland",
