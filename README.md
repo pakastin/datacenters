@@ -3,6 +3,9 @@
 ```bash
 npm i @pakastin/datacenters
 ```
+## Demo
+https://datacenter-test.pakastin.fi/
+
 ## Usage
 ```js
 import { cloudflare, hetzner, upcloud } from '@pakastin/datacenters';
