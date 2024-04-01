@@ -1,10 +1,12 @@
 # Data center locations
+
+## Demo
+https://datacenter-test.pakastin.fi/
+
 ## Install
 ```bash
 npm i @pakastin/datacenters
 ```
-## Demo
-https://datacenter-test.pakastin.fi/
 
 ## Usage
 ```js
